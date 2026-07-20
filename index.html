@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRUESTEAD ($STEAD) — Real World Assets, On-Chain</title>
+<meta name="description" content="Truestead ($STEAD) brings real-world assets — real estate, precious metals, treasury bills and infrastructure — on-chain. Verified, transparent, and secure.">
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanlines" aria-hidden="true"></div>
+<div class="crt-vignette" aria-hidden="true"></div>
+
+<!-- BOOT SCREEN -->
+<div id="boot-screen">
+  <div class="boot-text">
+    <span id="boot-line"></span><span class="cursor">█</span>
+  </div>
+  <div class="boot-bar"><div class="boot-bar-fill" id="boot-fill"></div></div>
+</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">
+      <img src="assets/logo.png" alt="Truestead logo" class="logo-img">
+      <span class="nav-title">TRUESTEAD</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#assets">ASSETS</a>
+      <a href="#why">WHY_US</a>
+      <a href="#onchain">ON-CHAIN</a>
+      <a href="#tokenomics">$STEAD</a>
+      <a href="#roadmap">ROADMAP</a>
+    </nav>
+    <a href="#buy" class="btn btn-small">CONNECT</a>
+    <button class="nav-burger" id="navBurger" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="pixel-tag">[ NETWORK: ETHEREUM ]&nbsp;&nbsp;[ STATUS: LIVE ]</div>
+    <img src="assets/logo.png" alt="Truestead pixel logo" class="hero-logo">
+    <h1 class="hero-title">TRUESTEAD</h1>
+    <p class="hero-ticker">$STEAD</p>
+    <p class="hero-sub">Bringing real value on-chain.</p>
+    <p class="hero-desc">
+      Truestead is a Real World Asset (RWA) protocol that turns physical value —
+      real estate, precious metals, treasury bills and infrastructure — into
+      verified, tradeable on-chain assets. No paper promises. Just deeds,
+      vaults and yield, settled on-chain.
+    </p>
+    <div class="hero-cta">
+      <a href="#buy" class="btn btn-primary">BUY $STEAD ▶</a>
+      <a href="#docs" class="btn btn-ghost">READ DOCS</a>
+    </div>
+    <div class="hero-marquee">
+      <div class="marquee-track">
+        <span>REAL ESTATE</span><span>•</span><span>PRECIOUS METALS</span><span>•</span>
+        <span>TREASURY BILLS</span><span>•</span><span>INFRASTRUCTURE</span><span>•</span>
+        <span>REAL ESTATE</span><span>•</span><span>PRECIOUS METALS</span><span>•</span>
+        <span>TREASURY BILLS</span><span>•</span><span>INFRASTRUCTURE</span><span>•</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HERO BANNER IMAGE -->
+<section class="banner">
+  <img src="assets/hero-rwa.png" alt="Truestead RWA overview banner" class="banner-img">
+</section>
+
+<!-- ASSETS -->
+<section id="assets" class="section">
+  <div class="section-inner">
+    <p class="eyebrow">// 01_ASSET_REGISTRY</p>
+    <h2 class="section-title">What we bring on-chain</h2>
+    <div class="grid grid-4">
+      <div class="card">
+        <div class="card-icon">🏢</div>
+        <h3>Real Estate</h3>
+        <p>Fractionalized ownership of income-producing property, deed-backed and verifiable.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🪙</div>
+        <h3>Precious Metals</h3>
+        <p>Gold and silver reserves held in audited vaults, minted 1:1 as on-chain tokens.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📄</div>
+        <h3>Treasury Bills</h3>
+        <p>Short-duration government debt, tokenized for transparent, stable yield.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏗️</div>
+        <h3>Infrastructure</h3>
+        <p>Revenue-generating infrastructure projects, opened up to on-chain capital.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why" class="section section-alt">
+  <div class="section-inner">
+    <p class="eyebrow">// 02_CORE_PROPERTIES</p>
+    <h2 class="section-title">Why Truestead</h2>
+    <div class="grid grid-4">
+      <div class="feature">
+        <div class="feature-box">🛡️</div>
+        <h3>Secure</h3>
+        <p>Audited smart contracts and custodied reserves protect every asset behind $STEAD.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-box">🔒</div>
+        <h3>Transparency</h3>
+        <p>Every reserve, deed and audit is published on-chain — nothing hidden, nothing assumed.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-box">🌐</div>
+        <h3>Global Access</h3>
+        <p>Anyone, anywhere, can hold a stake in real-world value with just a wallet.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-box">📈</div>
+        <h3>Liquidity &amp; Growth</h3>
+        <p>Tokenized assets trade freely, unlocking liquidity that traditional RWA markets lock away.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ON-CHAIN -->
+<section id="onchain" class="section">
+  <div class="section-inner onchain-inner">
+    <div class="onchain-copy">
+      <p class="eyebrow">// 03_ON-CHAIN_PROOF</p>
+      <h2 class="section-title">Verified. Transparent. Immutable. Secure.</h2>
+      <p class="onchain-desc">
+        Every asset that backs $STEAD is registered on-chain: deed hashes, vault
+        attestations and audit reports are all publicly checkable. Truestead
+        doesn't ask you to trust a brand — it gives you a ledger to verify.
+      </p>
+      <ul class="onchain-list">
+        <li><span class="tick">✔</span> Verified — real-world documents hashed and anchored on-chain</li>
+        <li><span class="tick">✔</span> Transparent — reserves and flows visible to anyone, anytime</li>
+        <li><span class="tick">✔</span> Immutable — once recorded, asset history cannot be rewritten</li>
+        <li><span class="tick">✔</span> Secure — audited contracts, multi-sig custody, no single point of failure</li>
+      </ul>
+    </div>
+    <div class="onchain-terminal">
+      <div class="terminal-bar"><span></span><span></span><span></span></div>
+      <pre class="terminal-body" id="terminalBody"></pre>
+    </div>
+  </div>
+</section>
+
+<!-- TOKENOMICS -->
+<section id="tokenomics" class="section section-alt">
+  <div class="section-inner">
+    <p class="eyebrow">// 04_TOKEN</p>
+    <h2 class="section-title">$STEAD at a glance</h2>
+    <div class="grid grid-4 stats-grid">
+      <div class="stat-card">
+        <span class="stat-label">TICKER</span>
+        <span class="stat-value">$STEAD</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">NETWORK</span>
+        <span class="stat-value">ETHEREUM</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">LAUNCH</span>
+        <span class="stat-value">VIRTUALS.IO</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">BACKED BY</span>
+        <span class="stat-value">REAL ASSETS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="section">
+  <div class="section-inner">
+    <p class="eyebrow">// 05_ROADMAP</p>
+    <h2 class="section-title">Build log</h2>
+    <div class="roadmap">
+      <div class="roadmap-item">
+        <span class="roadmap-tag">STAGE 1</span>
+        <h3>Protocol Genesis</h3>
+        <p>$STEAD deploys on Virtuals.io, initial liquidity and community formation.</p>
+      </div>
+      <div class="roadmap-item">
+        <span class="roadmap-tag">STAGE 2</span>
+        <h3>Asset Onboarding</h3>
+        <p>First real estate, metals and treasury bill partners verified and listed.</p>
+      </div>
+      <div class="roadmap-item">
+        <span class="roadmap-tag">STAGE 3</span>
+        <h3>On-Chain Registry</h3>
+        <p>Public dashboard for reserves, deeds and audit attestations goes live.</p>
+      </div>
+      <div class="roadmap-item">
+        <span class="roadmap-tag">STAGE 4</span>
+        <h3>Open Markets</h3>
+        <p>Secondary liquidity and cross-chain expansion for tokenized RWAs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="buy" class="cta-banner">
+  <div class="cta-inner">
+    <h2>Invest in the real world</h2>
+    <p>$STEAD turns real assets into on-chain value — verifiable, liquid, global.</p>
+    <a href="#" class="btn btn-primary btn-large">INVEST IN THE REAL WORLD ▶</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="docs">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Truestead logo" class="footer-logo">
+      <span>TRUESTEAD</span>
+    </div>
+    <div class="footer-badges">
+      <span class="badge">🌐 NETWORK: ETHEREUM</span>
+      <span class="badge">📦 SMART CONTRACTS POWERING REAL VALUE</span>
+      <span class="badge">🛡️ AUDITED &amp; SECURE</span>
+    </div>
+    <div class="footer-links">
+      <a href="#" target="_blank" rel="noopener">Twitter / X</a>
+      <a href="#" target="_blank" rel="noopener">Telegram</a>
+      <a href="#" target="_blank" rel="noopener">Whitepaper</a>
+      <a href="#" target="_blank" rel="noopener">Virtuals.io</a>
+    </div>
+    <p class="footer-note">© 2026 TRUESTEAD PROTOCOL. $STEAD is a utility token backed by tokenized real-world assets. Not financial advice. DYOR.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
